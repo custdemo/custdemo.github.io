@@ -8,8 +8,14 @@
     <!-- <link href="bulma/css/bulma.css" rel="stylesheet"/> -->
     <!-- <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> -->
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js"></script>
+    <script
+			src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			     crossorigin="anonymous"></script>
     <!-- parallex -->
     <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+    <!-- lineicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GrayGrids/LineIcons/LineIcons.css">
     <!-- https://petrey.co/2017/05/the-most-effective-way-to-avoid-the-fouc/ -->
     <style>html{visibility: hidden;opacity:0;}</style>
   </head>
@@ -64,75 +70,81 @@
     <!-- end of hero section -->
 
     <!-- begining of general section -->
-    <section class="section" id="general">
-      <div class="columns is-centered">
-        <!-- <div class="column is-four-fifths"> -->
-        <div class="column is-10-widescreen">
-          <div class="columns is-desktop">
-            <div class="column is-half-desktop has-vertically-aligned-content">
-              <div class="image container-mobile">
-                <img alt="" src="img/50years.png"/>
+    <section class="section conatiner has-text-centered" id="general">
+      <!-- <div class="columns is-centered"> -->
+      <!-- <div class="column is-10-widescreen"> -->
+      <!-- <div class="columns is-desktop"> -->
+      <div class="columns is-centered is-vcentered is-desktop" style="margin-top: 1rem;">
+        <div class="column is-4-desktop">
+          <div class="imag container-mobile">
+            <img alt="" src="img/50years.png" style="padding: auto auto;" />
+          </div>
+        </div>
+        <div class="column is-6-desktop is-size-5">
+          Aliquam erat volutpat.  Nunc eleifend leo vitae magna.  In id erat non orci commodo lobortis.  Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus.  Sed diam.  Praesent fermentum tempor tellus.  Nullam tempus.  Mauris ac felis vel velit tristique imperdiet.  Donec at pede.  Etiam vel neque nec dui dignissim bibendum.  Vivamus id enim.  Phasellus neque orci, porta a, aliquet quis, semper a, massa.  Phasellus purus.  Pellentesque tristique imperdiet tortor.  Nam euismod tellus id erat.
+        </div>
+      </div>
+      <div class="section container is-centered">
+        <div class="columns is-multiline">
+          <div class="column is-3-desktop is-6-tablet is-12-mobile animation-element slide-bottom">
+            <div class="has-text-centered">
+              <div class="general-icon-position">
+                <div class="icon-background">
+                  <span class="icon icon-color">
+                    <!-- <i class="fas fa-drafting-compass fa-2x"></i> -->
+                    <i class="lni-school-compass size-lg"></i>
+                  </span>
+                </div>
               </div>
-              <!-- <h1 class="title has-text-centered-touch" >50 餘年經驗</h1> -->
-              Aliquam erat volutpat.  Nunc eleifend leo vitae magna.  In id erat non orci commodo lobortis.  Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus.  Sed diam.  Praesent fermentum tempor tellus.  Nullam tempus.  Mauris ac felis vel velit tristique imperdiet.  Donec at pede.  Etiam vel neque nec dui dignissim bibendum.  Vivamus id enim.  Phasellus neque orci, porta a, aliquet quis, semper a, massa.  Phasellus purus.  Pellentesque tristique imperdiet tortor.  Nam euismod tellus id erat.
+              <h2 class="is-size-4 has-text-weight-semibold">專業</h2>
+              以豐富經驗、創新管理、及與時並進的技術，承造專業優質的工程項目。
             </div>
-            <div class="column is-half-desktop">
-              <!-- <div class="columns is-centered is-touch"> -->
-              <div class="columns is-centered is-touch">
-                <div class="column">
-                  <div class="card is-centered has-text-centered has-equal-height">
-                    <div class="card-content">
-                      <span class="icon" style="color: brown;">
-                        <i class="fas fa-drafting-compass fa-2x"></i>
-                      </span>
-                      <!-- <h1 class="title">專業</h1> -->
-                      <h2 class="is-size-4 has-text-weight-semibold">專業</h2>
-                      以豐富經驗、創新管理、及與時並進的技術，承造專業優質的工程項目。
-                    </div>
-                  </div>
-                </div>
-                <div class="column">
-                  <div class="card is-centered has-text-centered has-equal-height">
-                    <div class="card-content">
-                      <span class="icon">
-                        <i class="fas fa-hard-hat fa-2x" style="color: #f2c600;" ></i>
-                      </span>
-                      <!-- <h1 class="title">安全</h1> -->
-                      <h2 class="is-size-4 has-text-weight-semibold">安全</h2>
-                      <!-- 堅守工業安全手則，營造安全合適的施工場境，保障員工身心健康，利於工程進度及施工質量。 -->
-                      堅守工業安全守則，營造安全合適的施工場境，保障員工身心健康。
-                    </div>
-                  </div>
+          </div>
+          <div class="column is-3-desktop is-6-tablet is-12-mobile animation-element slide-bottom">
+            <div class="has-text-centered">
+              <div class="general-icon-position">
+                <div class="icon-background">
+                  <span class="icon icon-color">
+                    <!-- <i class="fas fa-hard-hat fa-2x" style="color: #f2c600;" ></i> -->
+                    <i class="lni-helmet size-lg"></i>
+                  </span>
                 </div>
               </div>
-              <div class="columns is-centered is-touch">
-                <div class="column">
-                  <div class="card is-centered has-text-centered has-equal-height">
-                    <div class="card-content">
-                      <span class="icon" style="color: blue;" >
-                        <i class="far fa-handshake fa-2x"></i>
-                      </span>
-                      <!-- <h2 class="title">可靠</h2> -->
-                      <h2 class="is-size-4 has-text-weight-semibold">可靠</h2>
-                      同心協力、發揮團隊精神，以高效優質的指標去完成每項工程，給客戶發送最大效益。
-                    </div>
-                  </div>
-                </div>
-                <div class="column">
-                  <div class="card is-centered has-text-centered has-equal-height">
-                    <div class="card-content">
-                      <span class="icon" style="color: red;" >
-                        <i class="far fa-heart fa-2x"></i>
-                      </span>
-                      <h2 class="is-size-4 has-text-weight-semibold">關懷</h2>
-                      以謙卑的心服務社會，關懷員工，與大家一起建設更美好的香港。
-                    </div>
-                  </div>
+              <h2 class="is-size-4 has-text-weight-semibold">安全</h2>
+              <!-- 堅守工業安全手則，營造安全合適的施工場境，保障員工身心健康，利於工程進度及施工質量。 -->
+              堅守工業安全守則，營造安全合適的施工場境，保障員工身心健康。
+            </div>
+          </div>
+          <div class="column is-3-desktop is-6-tablet is-12-mobile animation-element slide-bottom">
+            <div class="has-text-centered">
+              <div class="general-icon-position">
+                <div class="icon-background">
+                  <span class="icon icon-color" >
+                    <!-- <i class="far fa-handshake fa-2x"></i> -->
+                    <i class="lni-handshake size-lg"></i>
+                  </span>
                 </div>
               </div>
+              <h2 class="is-size-4 has-text-weight-semibold">可靠</h2>
+              同心協力、發揮團隊精神，以高效優質的指標去完成每項工程，給客戶發送最大效益。
+            </div>
+          </div>
+          <div class="column is-3-desktop is-6-tablet is-12-mobile animation-element slide-bottom">
+            <div class="has-text-centered">
+              <div class="general-icon-position">
+                <div class="icon-background">
+                  <span class="icon icon-color" >
+                    <!-- <i class="far fa-heart fa-2x"></i> -->
+                    <i class="lni-heart size-lg"></i>
+                  </span>
+                </div>
+              </div>
+              <h2 class="is-size-4 has-text-weight-semibold">關懷</h2>
+              以謙卑的心服務社會，關懷員工，與大家一起建設更美好的香港。
             </div>
           </div>
         </div>
+      </div>
         <!-- empty column as placeholder on far right -->
         <!-- <div class="is-1-widescreen"> -->
         <!-- </div> -->
@@ -149,7 +161,7 @@
             </div>
           </div>
           <div class="column is-6">
-            <div class="content">
+            <div class="content animation-element slide-right">
               <!-- <h2 class="title">電機工程</h2> -->
               <h2 class="is-size-4 has-text-weight-semibold">電機工程</h2>
               <p>
@@ -162,7 +174,7 @@
       <div>
         <div class="columns is-centered is-gapless">
           <div class="column is-6 is-hidden-mobile">
-            <div class="content">
+            <div class="content animation-element slide-left">
               <!-- <h2 class="title">冷氣工程</h2> -->
               <h2 class="is-size-4 has-text-weight-semibold">冷氣工程</h2>
               <p>
@@ -175,7 +187,7 @@
               <img alt="" src="img/sergei-akulich-hFBFC5YmIck-unsplash.jpg"/>
             </div>
           </div>
-          <div class="column is-6 is-hidden-tablet">
+          <div class="column is-6 is-hidden-tablet animation-element slide-left">
             <div class="content">
               <!-- <h2 class="title">冷氣工程</h2> -->
               <h2 class="is-size-4 has-text-weight-semibold">冷氣工程</h2>
@@ -193,7 +205,7 @@
               <img alt="" src="img/sergey-zolkin-m9qMoh-scfE-unsplash.jpg"/>
             </div>
           </div>
-          <div class="column is-6">
+          <div class="column is-6 animation-element slide-right">
             <div class="content">
               <!-- <h2 class="title">屋宇裝備工程</h2> -->
               <h2 class="is-size-4 has-text-weight-semibold">屋宇裝備工程</h2>
@@ -315,6 +327,5 @@
       </div>
     </section>
     <!-- end of footer section -->
-
-  <script type="text/javascript" src="js/index3.js?94f5ccc4555fce15cec6"></script></body>
+  <script type="text/javascript" src="js/index4.js?94f5ccc4555fce15cec6"></script></body>
 </html>
